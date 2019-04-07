@@ -12,7 +12,7 @@ void evaluate(Context ctx) {
     // Get a pointer to the `SCD30` class instance
     auto airSensor = getValue<input_DEV>(ctx);
 
-    airSensor->setAltitudeCompensation(getValue<input_ALT>(ctx));
+    airSensor->setAutoSelfCalibration(getValue<input_ASC>(ctx));
     emitValue<output_DONE>(ctx,1);
 
 }

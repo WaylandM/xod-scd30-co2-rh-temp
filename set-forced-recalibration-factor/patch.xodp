@@ -1,2 +1,53 @@
 {
+  "nodes": [
+    {
+      "id": "H1v6e2vFE",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "rJECenvFN",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-scd30-device"
+    },
+    {
+      "id": "rJTNWnPYN",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "rJi2x3DF4",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "rki1bhvFN",
+      "label": "CONC",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    }
+  ]
 }

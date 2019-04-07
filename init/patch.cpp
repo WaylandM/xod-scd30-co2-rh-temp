@@ -9,10 +9,10 @@ void evaluate(Context ctx) {
     if (!isInputDirty<input_INIT>(ctx))
         return;
 
-    // Get a pointer to the `Adafruit_BNO055` class instance
+    // Get a pointer to the `SCD30` class instance
     auto airSensor = getValue<input_DEV>(ctx);
 
-    // Attempt to initialize aos module; if attempt fails emit pulse from error port
+    // Attempt to initialize SCD30 module; if attempt fails emit pulse from error port
     if (!airSensor->begin()) {
         emitValue<output_ERR>(ctx, 1);
         return;
