@@ -1,6 +1,8 @@
 {
+  "description": "Create SCD30 device.",
   "nodes": [
     {
+      "description": "An SCD30 device.",
       "id": "BkvXCc7FV",
       "label": "DEV",
       "position": {
