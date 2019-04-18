@@ -24,6 +24,9 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "boundLiterals": {
+        "__out__": "True"
+      },
       "description": "If TRUE activate automatic self-calibration. If FALSE deactivate automatic self-calibration.",
       "id": "Hkebg3vFE",
       "label": "ASC",

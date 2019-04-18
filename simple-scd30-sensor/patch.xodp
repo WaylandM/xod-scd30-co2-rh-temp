@@ -1,0 +1,423 @@
+{
+  "links": [
+    {
+      "id": "B11gccfmL5V",
+      "input": {
+        "nodeId": "HJQ9cM7LcE",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "BkLc5zQU9E",
+        "pinKey": "HkyxURuSPyW"
+      }
+    },
+    {
+      "id": "BJ_0rQIqV",
+      "input": {
+        "nodeId": "Hyx5cG7U9N",
+        "pinKey": "HyU4zsXt4"
+      },
+      "output": {
+        "nodeId": "B1qaS7IcN",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Bk2777I9E",
+      "input": {
+        "nodeId": "SJtxmXUcE",
+        "pinKey": "BkPEenDFE"
+      },
+      "output": {
+        "nodeId": "Hyx5cG7U9N",
+        "pinKey": "rJNOzjQtN"
+      }
+    },
+    {
+      "id": "ByberXL54",
+      "input": {
+        "nodeId": "Hk-SQX8qN",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "S1PJSmL5E",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "H1PyUXIcV",
+      "input": {
+        "nodeId": "Hy49czm8qV",
+        "pinKey": "Syzghi7FN"
+      },
+      "output": {
+        "nodeId": "S1GkIXL5N",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "H1b_XmU5V",
+      "input": {
+        "nodeId": "BkLc5zQU9E",
+        "pinKey": "Bkh8A_Sv1-"
+      },
+      "output": {
+        "nodeId": "SJtxmXUcE",
+        "pinKey": "By9yxnwY4"
+      }
+    },
+    {
+      "id": "H1tccG78qE",
+      "input": {
+        "nodeId": "S155fmLq4",
+        "pinKey": "r1jzp_DTZ"
+      },
+      "output": {
+        "nodeId": "rJH55GXU54",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HJRqcMXU54",
+      "input": {
+        "nodeId": "Hy49czm8qV",
+        "pinKey": "r1EbhiQFN"
+      },
+      "output": {
+        "nodeId": "S155fmLq4",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "HJpof789V",
+      "input": {
+        "nodeId": "r1xLT3GU9N",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "Hy49czm8qV",
+        "pinKey": "HkgjcijmFV"
+      }
+    },
+    {
+      "id": "HJz2z7L5N",
+      "input": {
+        "nodeId": "ByfLahfUcE",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "Hy49czm8qV",
+        "pinKey": "SJGI2smYE"
+      }
+    },
+    {
+      "id": "HkKoMmI9E",
+      "input": {
+        "nodeId": "BkLphzU94",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "Hy49czm8qV",
+        "pinKey": "HkVcjjQtE"
+      }
+    },
+    {
+      "id": "S1n5XQU5E",
+      "input": {
+        "nodeId": "S155fmLq4",
+        "pinKey": "B13SCNhl-"
+      },
+      "output": {
+        "nodeId": "rkGB3G8cN",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SJ62B7IqE",
+      "input": {
+        "nodeId": "BJ-2BQU9N",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "Bkv9qG7I5N",
+        "pinKey": "BkvXCc7FV"
+      }
+    },
+    {
+      "id": "SJooGmLcE",
+      "input": {
+        "nodeId": "Hkm8p3MU9V",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "Hy49czm8qV",
+        "pinKey": "rysqismFN"
+      }
+    },
+    {
+      "id": "SkhjmX8qE",
+      "input": {
+        "nodeId": "SJtxmXUcE",
+        "pinKey": "Hkebg3vFE"
+      },
+      "output": {
+        "nodeId": "Sk8uTGUqV",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "r11nfmI5N",
+      "input": {
+        "nodeId": "B1bI63MI9E",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "Hy49czm8qV",
+        "pinKey": "S1PBnoXtV"
+      }
+    },
+    {
+      "id": "rJbkHXI5N",
+      "input": {
+        "nodeId": "HkJCNQU9N",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "Hyx5cG7U9N",
+        "pinKey": "Hy0ufjXtE"
+      }
+    },
+    {
+      "id": "ryJFN78qE",
+      "input": {
+        "nodeId": "SJtxmXUcE",
+        "pinKey": "SydCk2DF4"
+      },
+      "output": {
+        "nodeId": "Bkv9qG7I5N",
+        "pinKey": "BkvXCc7FV"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "description": "Pulses on successful read.",
+      "id": "B1bI63MI9E",
+      "label": "OK",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": -15
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "B1qaS7IcN",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": -19
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "BJ-2BQU9N",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": -18
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "BkLc5zQU9E",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -16
+      },
+      "type": "xod/core/flip-flop"
+    },
+    {
+      "description": "Carbon dioxide concentration (ppm).",
+      "id": "BkLphzU94",
+      "label": "CO2",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": -15
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "Bkv9qG7I5N",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -19
+      },
+      "type": "@/scd30-device"
+    },
+    {
+      "description": "Pulses if no new data to read.",
+      "id": "ByfLahfUcE",
+      "label": "NO DATA",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": -15
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "HJQ9cM7LcE",
+      "label": "INTD",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -15
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "description": "Pulses on failure to initialize.",
+      "id": "Hk-SQX8qN",
+      "label": "ERR",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": -15
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "HkJCNQU9N",
+      "label": "ERR",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": -17
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "description": "Relative humidity (%).",
+      "id": "Hkm8p3MU9V",
+      "label": "RH",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": -15
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "Hy49czm8qV",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": -16
+      },
+      "type": "@/read-data"
+    },
+    {
+      "id": "Hyx5cG7U9N",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": -18
+      },
+      "type": "@/init"
+    },
+    {
+      "boundLiterals": {
+        "B13SCNhl-": "2",
+        "r1jzp_DTZ": "False"
+      },
+      "id": "S155fmLq4",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": -17
+      },
+      "type": "xod/core/clock"
+    },
+    {
+      "id": "S1GkIXL5N",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": -17
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "S1PJSmL5E",
+      "label": "ERR",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": -16
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "SJtxmXUcE",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -17
+      },
+      "type": "@/set-auto-self-calibration"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "True"
+      },
+      "description": "If TRUE activate automatic self-calibration. If FALSE deactivate automatic self-calibration.",
+      "id": "Sk8uTGUqV",
+      "label": "ASC",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": -19
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "description": "Temperature (°C).",
+      "id": "r1xLT3GU9N",
+      "label": "TEMP",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": -15
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "rJH55GXU54",
+      "label": "INTD",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": -18
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "description": "Measurement interval.",
+      "id": "rkGB3G8cN",
+      "label": "INTVL",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": -18
+      },
+      "type": "xod/patch-nodes/input-number"
+    }
+  ]
+}
