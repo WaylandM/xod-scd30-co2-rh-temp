@@ -1,5 +1,5 @@
 // Tell XOD where it could download the library:
-#pragma XOD require "https://github.com/sparkfun/SparkFun_SCD30_Arduino_Library"
+#pragma XOD require "https://github.com/WaylandM/SparkFun_SCD30_Arduino_Library"
 
 //Include C++ libraries
 {{#global}}

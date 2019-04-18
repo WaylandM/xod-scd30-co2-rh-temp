@@ -1,6 +1,8 @@
 {
+  "description": "Forced recalibration (FRC) is used to compensate for sensor drifts when a reference value of the CO2 concentration of the air surrounding the SCD30 is available. For best results, the sensor has to be run in a stable environment in continuous mode at a measurement rateof 2s for at least two minutes before triggering this node. Setting a reference CO2 concentration using this node will always supersede corrections from set-auto-self-calibration and vice-versa. The reference CO2 concentration has to be within the range 400 to 2000 ppm.",
   "nodes": [
     {
+      "description": "Update. Triggers set forced recalibration. ",
       "id": "H1v6e2vFE",
       "label": "UPD",
       "position": {
@@ -11,6 +13,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "An SCD30 device.",
       "id": "rJECenvFN",
       "label": "DEV",
       "position": {
@@ -21,6 +24,7 @@
       "type": "@/input-scd30-device"
     },
     {
+      "description": "Pulses on completion.",
       "id": "rJTNWnPYN",
       "label": "DONE",
       "position": {
@@ -40,6 +44,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "description": "Reference carbon dioxide concentration (ppm).",
       "id": "rki1bhvFN",
       "label": "CONC",
       "position": {

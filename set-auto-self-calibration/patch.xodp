@@ -1,6 +1,8 @@
 {
+  "description": "(De-)activate automatic self calibration (ASC). When activated for the first  time a period of minimum 7 days is needed so that the algorithm can find its initial parameter set for ASC.  The successfully calculated parameters are stored in non-volatile memory of the SCD30 having the effect that after a restart the previously found parameters for ASC are still present. The ASC parameters are continually updated as the sensor runs. Finding a new parameter set by ASC will always overwrite the settings from set-forced-recalibration-factor and vice-versa.",
   "nodes": [
     {
+      "description": "Update. Trigger set auto self-calibration.",
       "id": "BkPEenDFE",
       "label": "UPD",
       "position": {
@@ -11,6 +13,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "Pulses on completion.",
       "id": "By9yxnwY4",
       "label": "DONE",
       "position": {
@@ -21,6 +24,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "If TRUE activate automatic self-calibration. If FALSE deactivate automatic self-calibration.",
       "id": "Hkebg3vFE",
       "label": "ASC",
       "position": {
@@ -40,6 +44,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "description": "An SCD30 device.",
       "id": "SydCk2DF4",
       "label": "DEV",
       "position": {

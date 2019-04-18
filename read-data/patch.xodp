@@ -1,8 +1,8 @@
 {
-  "description": "Reads CO2 concentration (ppm), relative humidity (%) and temperature (°C).",
+  "description": "Reads carbon dioxide concentration (ppm), relative humidity (%) and temperature (°C).",
   "nodes": [
     {
-      "description": "CO2 concentration (ppm).",
+      "description": "Carbon dioxide concentration (ppm).",
       "id": "HkVcjjQtE",
       "label": "CO2",
       "position": {

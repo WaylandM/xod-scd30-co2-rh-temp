@@ -1,5 +1,5 @@
 {
-  "description": "Measurements of  CO2 concentration  based  on  the  non-dispersive infrared (NDIR)  principle  are  influenced  by  ambient pressure.  The SCD30 can compensate for pressure if given altitude. The altitude compensation setting is disregarded when an ambient pressure is given to the sensor. Altitude value is saved in non-volatile memory. The last set value will be used for altitude compensation after repowering.",
+  "description": "Measurements of  carbon dioxide concentration  based  on  the  non-dispersive infrared (NDIR)  principle  are  influenced  by  altitude.  Use this node to set the altitude compensation of the SCD30. The altitude compensation setting is disregarded when an ambient pressure is given to the sensor. Altitude value is saved in non-volatile memory. The last set value will be used for altitude compensation after repowering.",
   "nodes": [
     {
       "description": "Pulses on completion.",
@@ -43,6 +43,9 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "boundLiterals": {
+        "__out__": "6"
+      },
       "description": "Height above sea level in metres.",
       "id": "SJM0zvPY4",
       "label": "ALT",

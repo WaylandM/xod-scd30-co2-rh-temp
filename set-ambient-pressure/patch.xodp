@@ -1,6 +1,8 @@
 {
+  "description": "Measurements of  carbon dioxide concentration  based  on  the  non-dispersive infrared (NDIR)  principle  are  influenced  by  ambient pressure.  Use this node to set the ambient pressure compensation of the SCD30. Ambient pressure value is saved in non-volatile memory. The last set value will be used for ambient pressure compensation after repowering. Setting the ambient pressure will overwrite previous and future settings of altitude compensation. Setting the MBAR input to zero will  deactivate  the  ambient  pressure compensation.  ",
   "nodes": [
     {
+      "description": "Update. Trigger set ambient pressure compensation.",
       "id": "B1e7SPPtN",
       "label": "UPD",
       "position": {
@@ -11,6 +13,10 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "boundLiterals": {
+        "__out__": "1013.25"
+      },
+      "description": "Ambient pressure (mBar)",
       "id": "Bk0bLDvtN",
       "label": "MBAR",
       "position": {
@@ -30,6 +36,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "description": "Pulses on completion.",
       "id": "SkpQSPDKV",
       "label": "DONE",
       "position": {
@@ -40,6 +47,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "An SCD30 device.",
       "id": "SkrUSPPtE",
       "label": "DEV",
       "position": {
