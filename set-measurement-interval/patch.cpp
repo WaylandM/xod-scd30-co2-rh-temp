@@ -12,6 +12,6 @@ void evaluate(Context ctx) {
     // Get a pointer to the `SCD30` class instance
     auto airSensor = getValue<input_DEV>(ctx);
 
-    airSensor->setMeasurementInterval(getValue<input_INTVL>(ctx));
+    airSensor->setMeasurementInterval(getValue<input_IVAL>(ctx));
     emitValue<output_DONE>(ctx,1);
 }

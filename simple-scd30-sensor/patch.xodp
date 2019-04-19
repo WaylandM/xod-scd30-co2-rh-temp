@@ -490,7 +490,7 @@
       },
       "description": "Interval between measurements in seconds. Can take a value from 2 to  1800 (30 minutes).",
       "id": "rktmeODcN",
-      "label": "INTVL",
+      "label": "IVAL",
       "position": {
         "units": "slots",
         "x": -2,

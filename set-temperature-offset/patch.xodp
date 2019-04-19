@@ -35,7 +35,7 @@
     {
       "description": "Temperature offset in degrees Celsius.",
       "id": "r194rhDFE",
-      "label": "T-OFF",
+      "label": "OFS",
       "position": {
         "units": "slots",
         "x": 1,
