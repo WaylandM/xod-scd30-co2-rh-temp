@@ -1,6 +1,8 @@
 {
+  "description": "The on-board relative humidity and temperature sensors are influenced by thermal self-heating of SCD30 and other electrical components. A temperature offset can be specified to compensate for self-heating.  Temperature offset value is saved in non-volatile memory. The last set value will be used for temperature offset compensation after repowering.",
   "nodes": [
     {
+      "description": "An SCD30 device.",
       "id": "HkszBhDKE",
       "label": "DEV",
       "position": {
@@ -20,6 +22,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "description": "Update. Triggers set temperature offset.",
       "id": "SyN1vhDYN",
       "label": "UPD",
       "position": {
@@ -30,6 +33,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "Temperature offset in degrees Celsius.",
       "id": "r194rhDFE",
       "label": "T-OFF",
       "position": {
@@ -40,6 +44,7 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
+      "description": "Pulses on completion.",
       "id": "rkxxwnPYV",
       "label": "DONE",
       "position": {

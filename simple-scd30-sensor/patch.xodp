@@ -1,4 +1,5 @@
 {
+  "description": "Combines lower level nodes to create a ready to use sensor.",
   "links": [
     {
       "id": "B11gccfmL5V",
@@ -12,6 +13,17 @@
       }
     },
     {
+      "id": "BJP9eOPqE",
+      "input": {
+        "nodeId": "ry-jyuP5E",
+        "pinKey": "ByCc73DtV"
+      },
+      "output": {
+        "nodeId": "HyNce_D9V",
+        "pinKey": "__out__"
+      }
+    },
+    {
       "id": "BJ_0rQIqV",
       "input": {
         "nodeId": "Hyx5cG7U9N",
@@ -20,6 +32,17 @@
       "output": {
         "nodeId": "B1qaS7IcN",
         "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Bk0sKNvcN",
+      "input": {
+        "nodeId": "Hy49czm8qV",
+        "pinKey": "r1EbhiQFN"
+      },
+      "output": {
+        "nodeId": "B1jtY4Dq4",
+        "pinKey": "OkPg7GDaW"
       }
     },
     {
@@ -56,39 +79,6 @@
       }
     },
     {
-      "id": "H1b_XmU5V",
-      "input": {
-        "nodeId": "BkLc5zQU9E",
-        "pinKey": "Bkh8A_Sv1-"
-      },
-      "output": {
-        "nodeId": "SJtxmXUcE",
-        "pinKey": "By9yxnwY4"
-      }
-    },
-    {
-      "id": "H1tccG78qE",
-      "input": {
-        "nodeId": "S155fmLq4",
-        "pinKey": "r1jzp_DTZ"
-      },
-      "output": {
-        "nodeId": "rJH55GXU54",
-        "pinKey": "__out__"
-      }
-    },
-    {
-      "id": "HJRqcMXU54",
-      "input": {
-        "nodeId": "Hy49czm8qV",
-        "pinKey": "r1EbhiQFN"
-      },
-      "output": {
-        "nodeId": "S155fmLq4",
-        "pinKey": "HJU8CE2lW"
-      }
-    },
-    {
       "id": "HJpof789V",
       "input": {
         "nodeId": "r1xLT3GU9N",
@@ -122,13 +112,35 @@
       }
     },
     {
-      "id": "S1n5XQU5E",
+      "id": "HkLVxOPq4",
       "input": {
-        "nodeId": "S155fmLq4",
-        "pinKey": "B13SCNhl-"
+        "nodeId": "ry-jyuP5E",
+        "pinKey": "r1f44nvFV"
       },
       "output": {
-        "nodeId": "rkGB3G8cN",
+        "nodeId": "rktmeODcN",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "S1hjt4Pc4",
+      "input": {
+        "nodeId": "B1jtY4Dq4",
+        "pinKey": "SJ-1mZPTz"
+      },
+      "output": {
+        "nodeId": "r13rKEwqV",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "S1lEKNPqN",
+      "input": {
+        "nodeId": "Hyx5cG7U9N",
+        "pinKey": "HyJ8Gs7KE"
+      },
+      "output": {
+        "nodeId": "BktfKED94",
         "pinKey": "__out__"
       }
     },
@@ -141,6 +153,17 @@
       "output": {
         "nodeId": "Bkv9qG7I5N",
         "pinKey": "BkvXCc7FV"
+      }
+    },
+    {
+      "id": "SJWpyOvqV",
+      "input": {
+        "nodeId": "ry-jyuP5E",
+        "pinKey": "ryFWNhvKV"
+      },
+      "output": {
+        "nodeId": "SJtxmXUcE",
+        "pinKey": "By9yxnwY4"
       }
     },
     {
@@ -188,6 +211,28 @@
       }
     },
     {
+      "id": "ry1oYVD5E",
+      "input": {
+        "nodeId": "B1jtY4Dq4",
+        "pinKey": "B1P1nFwaM"
+      },
+      "output": {
+        "nodeId": "rJH55GXU54",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "ry4_xuP5V",
+      "input": {
+        "nodeId": "BkLc5zQU9E",
+        "pinKey": "Bkh8A_Sv1-"
+      },
+      "output": {
+        "nodeId": "ry-jyuP5E",
+        "pinKey": "rkl5NhPFN"
+      }
+    },
+    {
       "id": "ryJFN78qE",
       "input": {
         "nodeId": "SJtxmXUcE",
@@ -210,6 +255,15 @@
         "y": -15
       },
       "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "B1jtY4Dq4",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": -17
+      },
+      "type": "xod/core/gate"
     },
     {
       "id": "B1qaS7IcN",
@@ -235,8 +289,8 @@
       "id": "BkLc5zQU9E",
       "position": {
         "units": "slots",
-        "x": 0,
-        "y": -16
+        "x": -2,
+        "y": -15
       },
       "type": "xod/core/flip-flop"
     },
@@ -250,6 +304,20 @@
         "y": -15
       },
       "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "On Boot"
+      },
+      "description": "Trigger for initialization. ",
+      "id": "BktfKED94",
+      "label": "INIT",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": -19
+      },
+      "type": "xod/patch-nodes/input-pulse"
     },
     {
       "id": "Bkv9qG7I5N",
@@ -276,8 +344,8 @@
       "label": "INTD",
       "position": {
         "units": "slots",
-        "x": 0,
-        "y": -15
+        "x": -2,
+        "y": -14
       },
       "type": "xod/patch-nodes/to-bus"
     },
@@ -323,6 +391,16 @@
       "type": "@/read-data"
     },
     {
+      "id": "HyNce_D9V",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": -2,
+        "y": -17
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
       "id": "Hyx5cG7U9N",
       "position": {
         "units": "slots",
@@ -330,19 +408,6 @@
         "y": -18
       },
       "type": "@/init"
-    },
-    {
-      "boundLiterals": {
-        "B13SCNhl-": "2",
-        "r1jzp_DTZ": "False"
-      },
-      "id": "S155fmLq4",
-      "position": {
-        "units": "slots",
-        "x": 6,
-        "y": -17
-      },
-      "type": "xod/core/clock"
     },
     {
       "id": "S1GkIXL5N",
@@ -388,6 +453,17 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
+      "description": "Update. Trigger new read.",
+      "id": "r13rKEwqV",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": -18
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
       "description": "Temperature (°C).",
       "id": "r1xLT3GU9N",
       "label": "TEMP",
@@ -403,21 +479,33 @@
       "label": "INTD",
       "position": {
         "units": "slots",
-        "x": 6,
+        "x": 7,
         "y": -18
       },
       "type": "xod/patch-nodes/from-bus"
     },
     {
-      "description": "Measurement interval.",
-      "id": "rkGB3G8cN",
+      "boundLiterals": {
+        "__out__": "2"
+      },
+      "description": "Interval between measurements in seconds. Can take a value from 2 to  1800 (30 minutes).",
+      "id": "rktmeODcN",
       "label": "INTVL",
       "position": {
         "units": "slots",
-        "x": 7,
-        "y": -18
+        "x": -2,
+        "y": -19
       },
       "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "id": "ry-jyuP5E",
+      "position": {
+        "units": "slots",
+        "x": -2,
+        "y": -16
+      },
+      "type": "@/set-measurement-interval"
     }
   ]
 }

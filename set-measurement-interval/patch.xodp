@@ -1,6 +1,8 @@
 {
+  "description": "Set interval between measurements. The measurement interval is saved in non-volatile memory. ",
   "nodes": [
     {
+      "description": "An SCD30 device.",
       "id": "ByCc73DtV",
       "label": "DEV",
       "position": {
@@ -20,7 +22,10 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
-      "description": "Measurment interval",
+      "boundLiterals": {
+        "__out__": "2"
+      },
+      "description": "Interval between measurements in seconds. Can take a value from 2 to  1800 (30 minutes).",
       "id": "r1f44nvFV",
       "label": "INTVL",
       "position": {
@@ -31,6 +36,7 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
+      "description": "Pulses on completion.",
       "id": "rkl5NhPFN",
       "label": "DONE",
       "position": {
@@ -41,6 +47,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "Update. Triggers set measurement interval.",
       "id": "ryFWNhvKV",
       "label": "UPD",
       "position": {
