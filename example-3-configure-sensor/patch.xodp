@@ -1,4 +1,5 @@
 {
+  "description": "Demonstrates configuration of SCD30 device. Here we configure the following settings: (1) auto self-calibration ; (2) temperature offset; (3) altitude compensation;  and (4) measurement interval. Run in debug mode.",
   "links": [
     {
       "id": "B1nEV5w9V",
@@ -235,7 +236,7 @@
   "nodes": [
     {
       "boundLiterals": {
-        "r194rhDFE": "0"
+        "r194rhDFE": "2"
       },
       "id": "B18FzqvcE",
       "position": {

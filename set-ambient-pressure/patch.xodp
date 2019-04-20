@@ -16,7 +16,7 @@
       "boundLiterals": {
         "__out__": "1013.25"
       },
-      "description": "Ambient pressure (mBar)",
+      "description": "Ambient pressure (mBar). Ambient pressure should be in the range 700 to 1200 mBar. Setting MBAR to  ",
       "id": "Bk0bLDvtN",
       "label": "MBAR",
       "position": {

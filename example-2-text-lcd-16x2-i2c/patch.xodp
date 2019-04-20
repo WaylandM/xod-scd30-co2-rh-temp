@@ -1,4 +1,5 @@
 {
+  "description": "An example of displaying the output from an SCD30 sensor on a  text LCD screen.",
   "links": [
     {
       "id": "HJN5MKP5N",

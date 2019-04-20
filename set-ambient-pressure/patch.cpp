@@ -12,7 +12,7 @@ void evaluate(Context ctx) {
     // Get a pointer to the `SCD30` class instance
     auto airSensor = getValue<input_DEV>(ctx);
 
-    airSensor->setAmbientPressure(input_MBAR);
+    airSensor->setAmbientPressure(getValue<input_MBAR>(ctx));
     emitValue<output_DONE>(ctx,1);
 
 }

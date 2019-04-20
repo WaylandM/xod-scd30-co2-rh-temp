@@ -1,3 +1,6 @@
 {
-  "name": ""
+  "description": "CO2, relative humidity and temperature sensor. Arduino library for the Sensirion SCD30 sensor module (https://www.sensirion.com/en/environmental-sensors/carbon-dioxide-sensors-co2/). Wraps a modified version of the SparkFun SCD30 Arduino Library (https://github.com/sparkfun/SparkFun_SCD30_Arduino_Library).",
+  "license": "MIT",
+  "name": "scd30-co2-rh-temp",
+  "version": "0.0.1"
 }

@@ -44,7 +44,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
-      "description": "Reference carbon dioxide concentration (ppm).",
+      "description": "Reference carbon dioxide concentration (ppm). Should be in the range 400 to 2000 ppm.",
       "id": "rki1bhvFN",
       "label": "CONC",
       "position": {
