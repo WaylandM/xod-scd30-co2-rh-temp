@@ -2,13 +2,13 @@
   "description": "An example of displaying the output from an SCD30 sensor on a  text LCD screen.",
   "links": [
     {
-      "id": "HJN5MKP5N",
+      "id": "HJzKQfJ2r",
       "input": {
-        "nodeId": "r1dAmdPc4",
-        "pinKey": "H1bLN9F-b"
+        "nodeId": "S1SBmzy3H",
+        "pinKey": "BJ3DAE1QS"
       },
       "output": {
-        "nodeId": "HyHBMKwcE",
+        "nodeId": "S1xc8dD5N",
         "pinKey": "rksccsp-W"
       }
     },
@@ -46,17 +46,6 @@
       }
     },
     {
-      "id": "SJ9MEtP5V",
-      "input": {
-        "nodeId": "r1dAmdPc4",
-        "pinKey": "HkMi4t8xX"
-      },
-      "output": {
-        "nodeId": "S1fY7Ow94",
-        "pinKey": "B1bI63MI9E"
-      }
-    },
-    {
       "id": "Sk03muwcV",
       "input": {
         "nodeId": "S1fY7Ow94",
@@ -90,13 +79,13 @@
       }
     },
     {
-      "id": "ry2i-YD5N",
+      "id": "ryVFXzk3H",
       "input": {
-        "nodeId": "r1dAmdPc4",
-        "pinKey": "B1TSE9tZ-"
+        "nodeId": "S1SBmzy3H",
+        "pinKey": "rJgnw0417B"
       },
       "output": {
-        "nodeId": "S1xc8dD5N",
+        "nodeId": "HyHBMKwcE",
         "pinKey": "rksccsp-W"
       }
     },
@@ -120,7 +109,7 @@
       "id": "B1ujLuP9N",
       "position": {
         "units": "slots",
-        "x": 1,
+        "x": 3,
         "y": 2
       },
       "type": "xod/core/pad-with-zeroes"
@@ -132,7 +121,7 @@
       "id": "H1wnJYPqN",
       "position": {
         "units": "slots",
-        "x": 3,
+        "x": 5,
         "y": 2
       },
       "type": "xod/core/format-number"
@@ -150,10 +139,22 @@
       "id": "HyHBMKwcE",
       "position": {
         "units": "slots",
-        "x": 3,
+        "x": 5,
         "y": 3
       },
       "type": "xod/core/concat"
+    },
+    {
+      "boundLiterals": {
+        "rkedCVkXS": "38h"
+      },
+      "id": "S1SBmzy3H",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 4
+      },
+      "type": "xod-dev/text-lcd/text-lcd-i2c-16x2"
     },
     {
       "id": "S1fY7Ow94",
@@ -176,24 +177,10 @@
       "id": "S1xc8dD5N",
       "position": {
         "units": "slots",
-        "x": 0,
+        "x": 2,
         "y": 3
       },
       "type": "xod/core/concat"
-    },
-    {
-      "boundLiterals": {
-        "B1TSE9tZ-": "\"CO2  RH    TEMP\"",
-        "SkkWMb9A-": "True",
-        "rJlYT7EfW": "38h"
-      },
-      "id": "r1dAmdPc4",
-      "position": {
-        "units": "slots",
-        "x": 5,
-        "y": 4
-      },
-      "type": "xod/common-hardware/text-lcd-16x2-i2c"
     },
     {
       "boundLiterals": {
@@ -202,7 +189,7 @@
       "id": "rJh6yYwcV",
       "position": {
         "units": "slots",
-        "x": 5,
+        "x": 7,
         "y": 2
       },
       "type": "xod/core/format-number"
